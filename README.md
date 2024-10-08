@@ -34,5 +34,5 @@
 | !=       | NotEqual       | "!="       |
 | var_name | Ident          | "\[a-zA-Z\](\[a-zA-Z0-9_\])\*" |
 | 10311    | Num            | "\[0-9\]+" |
-| \#       | Inline Comment | ""#.\*"    |
+| \#       | Inline Comment | "#.\*"     |
 
