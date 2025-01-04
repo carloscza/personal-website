@@ -1,12 +1,10 @@
 import cczalogo from "../media/cczalogo1.png";
 
-function HomeBanner()
+export default function WelcomeLogo() 
 {
-    return(
-        <div className="home-banner">
-            <img src={cczalogo} className="nav-logo"/>
-        </div>
-    );
+  return (
+    <section id="welcome-logo">
+        <img src={cczalogo}/>
+    </section>
+  );
 }
-
-export default HomeBanner;

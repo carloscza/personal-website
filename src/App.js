@@ -1,17 +1,17 @@
 import "./App.css";
 
-import HomeNavBar from "./containers/HomeNavBar";
 import HomeBanner from "./containers/HomeBanner";
+import NavBar from "./containers/NavBar";
 
-function App() {
+function App() 
+{
   return (
-    <main className="App">
-      <section id="home-nav-bar">
-        <HomeNavBar />
+    <div className="App">
+      <header>
+        <NavBar/>
         <HomeBanner/>
-      </section>
-
-    </main>
+      </header>
+    </div>
   );
 }
 

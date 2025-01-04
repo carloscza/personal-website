@@ -1,16 +1,29 @@
 *
 {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-main {
-  margin: 0px;
-  padding: 36px 44px 30px 44px;
-  background-color: #f1f1f1;
+html
+{
+  margin: 0;
+  padding: 0;
 }
 
-body {
+header, main 
+{
   margin: 0;
+  padding: 0;
+  color: #1f1f1f;
+  background-color: #f1f1f1;
+  font-family: "Roboto Mono", monospace;
+}
+
+body 
+{
+  margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -18,7 +31,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+code 
+{
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a
+{
+  text-decoration: none;
 }
